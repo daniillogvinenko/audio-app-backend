@@ -24,5 +24,21 @@ export const database = {
             duration: 222,
             img: "2.jpg",
         },
+        {
+            id: "3",
+            title: "redruM reverse",
+            author: "67, R6, ST",
+            source: "3.mp3",
+            duration: 216,
+            img: "3.jpg",
+        },
+        {
+            id: "4",
+            title: "Lost",
+            author: "Linkin Park",
+            source: "4.mp3",
+            duration: 199,
+            img: "4.jpg",
+        },
     ],
 };

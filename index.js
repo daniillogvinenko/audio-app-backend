@@ -4,6 +4,7 @@ import authRouter from "./router/authRouter/authRouter.js";
 import songsRouter from "./router/songsRouter/songsRouter.js";
 import { fileURLToPath } from "url";
 import path, { dirname } from "path";
+import playlistsRouter from "./router/playlistsRouter.js/playlistsRouter.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -36,6 +37,7 @@ app.use(function (req, res, next) {
 app.use("/", testsRouter);
 app.use("/", authRouter);
 app.use("/", songsRouter);
+app.use("/", playlistsRouter);
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);

@@ -41,4 +41,20 @@ export const database = {
             img: "4.jpg",
         },
     ],
+    playlists: [
+        {
+            id: "1",
+            userId: "0367bd22-e548-41f4-9a71-84f29b54f099",
+            songs: ["2", "3"],
+            title: "Test playlist",
+            imgSrc: "1.jpg",
+        },
+        {
+            id: "2",
+            userId: "0367bd22-e548-41f4-9a71-84f29b54f099",
+            songs: ["1", "4"],
+            title: "Test playlist 2",
+            imgSrc: "2.jpg",
+        },
+    ],
 };

@@ -40,6 +40,38 @@ export const database = {
             duration: 199,
             img: "4.jpg",
         },
+        {
+            id: "5",
+            title: "Smooth Operator",
+            author: "Sade",
+            source: "5.mp3",
+            duration: 256,
+            img: "5.jpg",
+        },
+        {
+            id: "6",
+            title: "44's Ina 4Door",
+            author: "Dimzy",
+            source: "6.mp3",
+            duration: 129,
+            img: "6.jpg",
+        },
+        {
+            id: "7",
+            title: "П.М.М.Л.",
+            author: "Земфира",
+            source: "7.mp3",
+            duration: 216,
+            img: "7.jpg",
+        },
+        {
+            id: "8",
+            title: "Тралики",
+            author: "Макс Корж",
+            source: "8.mp3",
+            duration: 249,
+            img: "8.jpg",
+        },
     ],
     playlists: [
         {

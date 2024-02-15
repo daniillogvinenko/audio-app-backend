@@ -10,8 +10,10 @@ export const songsInPlaylistController = {
 
         let resItems = songs.filter((song) => songIds.includes(song.id));
 
+        let playlistTitle = playlists[index].title;
+
         if (index > -1) {
-            res.status(200).json(resItems);
+            res.status(200).json({ songs: resItems, playlistTitle });
         } else {
             res.status(500).json({ message: `${entityName.slice(0, -1)} not found` });
         }

@@ -28,12 +28,12 @@ app.use(function (req, res, next) {
 });
 
 // Нужно для небольшой задержки, имитация реального апи
-// app.use(async (req, res, next) => {
-//     await new Promise((res) => {
-//         setTimeout(res, 800);
-//     });
-//     next();
-// });
+app.use(async (req, res, next) => {
+    await new Promise((res) => {
+        setTimeout(res, 800);
+    });
+    next();
+});
 
 app.use("/", testsRouter);
 app.use("/", authRouter);

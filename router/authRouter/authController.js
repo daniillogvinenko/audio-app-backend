@@ -9,7 +9,7 @@ const { users } = database;
 const generateAccessToken = (id) => {
     const payload = { id };
 
-    return jwt.sign(payload, secretKey, { expiresIn: "10h" });
+    return jwt.sign(payload, secretKey, { expiresIn: "10min" });
 };
 
 export const authController = {

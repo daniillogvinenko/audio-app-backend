@@ -9,7 +9,7 @@ const { users } = database;
 const generateAccessToken = (id) => {
     const payload = { id };
 
-    return jwt.sign(payload, secretKey, { expiresIn: "10min" });
+    return jwt.sign(payload, secretKey, { expiresIn: "24h" });
 };
 
 export const authController = {
@@ -48,9 +48,7 @@ export const authController = {
                 return res.status(400).json({ message: "Неверный пароль" });
             }
 
-            const token = generateAccessToken(user.id);
-
-            return res.status(200).json({ token });
+            return res.status(200).json({ id: user.id, username: user.username, playlists: user.playlists });
         } catch (error) {
             console.log(error);
             res.status(400).json({ message: "login error" });

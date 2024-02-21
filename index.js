@@ -1,11 +1,11 @@
 import express from "express";
-import testsRouter from "./router/testsRouter.js";
 import authRouter from "./router/authRouter/authRouter.js";
 import songsRouter from "./router/songsRouter/songsRouter.js";
 import { fileURLToPath } from "url";
 import path, { dirname } from "path";
 import playlistsRouter from "./router/playlistsRouter.js/playlistsRouter.js";
 import songsInPlaylistRouter from "./router/songsInPlaylistRouter/songsInPlaylistRouter.js";
+import userRouter from "./router/userRouter/userRouter.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -35,11 +35,11 @@ app.use(function (req, res, next) {
 //     next();
 // });
 
-app.use("/", testsRouter);
 app.use("/", authRouter);
 app.use("/", songsRouter);
 app.use("/", playlistsRouter);
 app.use("/", songsInPlaylistRouter);
+app.use("/", userRouter);
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);

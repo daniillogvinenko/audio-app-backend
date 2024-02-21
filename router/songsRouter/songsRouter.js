@@ -4,7 +4,7 @@ import { songsController } from "./songsController.js";
 
 const songsRouter = new Router();
 
-songsRouter.get("/songs", authMiddleware, songsController.getAll); // authMiddleware
-songsRouter.get("/songs/:id", authMiddleware, songsController.getOne); // authMiddleware
+songsRouter.get("/songs", songsController.getAll); // authMiddleware
+songsRouter.get("/songs/:id", songsController.getOne); // authMiddleware
 
 export default songsRouter;

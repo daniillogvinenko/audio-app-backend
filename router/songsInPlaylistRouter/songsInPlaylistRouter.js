@@ -4,6 +4,6 @@ import { songsInPlaylistController } from "./songsInPlaylistController.js";
 
 const songsInPlaylistRouter = new Router();
 
-songsInPlaylistRouter.get("/songsInPlaylist/:id", authMiddleware, songsInPlaylistController.getOne); // authMiddleware
+songsInPlaylistRouter.get("/songsInPlaylist/:id", songsInPlaylistController.getOne); // authMiddleware
 
 export default songsInPlaylistRouter;

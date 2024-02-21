@@ -1,11 +1,10 @@
 import { Router } from "express";
 import { authController } from "./authController.js";
-import authMiddleware from "../../middleware/authMiddleware.js";
 
 const authRouter = new Router();
 
-authRouter.get("/users", authMiddleware, authController.getAll);
-authRouter.get("/users/:id", authMiddleware, authController.getOne);
+authRouter.get("/users", authController.getAll); // authMiddleware
+authRouter.get("/users/:id", authController.getOne); // authMiddleware
 authRouter.post("/login", authController.login);
 authRouter.post("/registration", authController.registration);
 

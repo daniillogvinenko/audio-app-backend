@@ -13,25 +13,6 @@ const generateAccessToken = (id) => {
 };
 
 export const authController = {
-    getAll: async (req, res) => {
-        try {
-            res.status(200).json(users);
-        } catch (error) {
-            console.log(error);
-            res.status(400).json({ message: "error" });
-        }
-    },
-
-    getOne: (req, res) => {
-        const index = users.findIndex((item) => String(item.id) === String(req.params.id));
-        let resItem = users[index];
-        if (index > -1) {
-            res.status(200).json(resItem);
-        } else {
-            res.status(500).json({ message: `user is not found` });
-        }
-    },
-
     login: async (req, res) => {
         try {
             const { username, password } = req.body;

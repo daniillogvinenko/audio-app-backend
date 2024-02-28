@@ -13,7 +13,7 @@ export const database = {
             title: "Diamonds & wood",
             author: "UGK",
             source: "1.mp3",
-            duration: 313,
+            duration: "5:13",
             img: "1.jpg",
         },
         {
@@ -21,7 +21,7 @@ export const database = {
             title: "Day 'N' Nite",
             author: "Kid Cudi",
             source: "2.mp3",
-            duration: 222,
+            duration: "3:42",
             img: "2.jpg",
         },
         {
@@ -29,7 +29,7 @@ export const database = {
             title: "redruM reverse",
             author: "67, R6, ST",
             source: "3.mp3",
-            duration: 216,
+            duration: "3:36",
             img: "3.jpg",
         },
         {
@@ -37,7 +37,7 @@ export const database = {
             title: "Lost",
             author: "Linkin Park",
             source: "4.mp3",
-            duration: 199,
+            duration: "3:19",
             img: "4.jpg",
         },
         {
@@ -45,7 +45,7 @@ export const database = {
             title: "Smooth Operator",
             author: "Sade",
             source: "5.mp3",
-            duration: 256,
+            duration: "4:16",
             img: "5.jpg",
         },
         {
@@ -53,7 +53,7 @@ export const database = {
             title: "44's Ina 4Door",
             author: "Dimzy",
             source: "6.mp3",
-            duration: 129,
+            duration: "2:09",
             img: "6.jpg",
         },
         {
@@ -61,7 +61,7 @@ export const database = {
             title: "П.М.М.Л.",
             author: "Земфира",
             source: "7.mp3",
-            duration: 216,
+            duration: "3:36",
             img: "7.jpg",
         },
         {
@@ -69,7 +69,7 @@ export const database = {
             title: "Тралики",
             author: "Макс Корж",
             source: "8.mp3",
-            duration: 249,
+            duration: "4:09",
             img: "8.jpg",
         },
         {
@@ -77,7 +77,7 @@ export const database = {
             title: "I'm Sorry Hun",
             author: "Nito NB",
             source: "9.mp3",
-            duration: 172,
+            duration: "2:52",
             img: "9.jpg",
         },
         {
@@ -85,7 +85,7 @@ export const database = {
             title: "How It Is",
             author: "B4ND1T",
             source: "10.mp3",
-            duration: 200,
+            duration: "3:20",
             img: "10.jpg",
         },
         {
@@ -93,7 +93,7 @@ export const database = {
             title: "It Was A Very Good Year",
             author: "Frank Sinatra",
             source: "11.mp3",
-            duration: 267,
+            duration: "4:27",
             img: "11.jpg",
         },
         {
@@ -101,7 +101,7 @@ export const database = {
             title: "Confessions",
             author: "BADBADNOTGOOD",
             source: "12.mp3",
-            duration: 302,
+            duration: "5:02",
             img: "12.jpg",
         },
         {
@@ -109,7 +109,7 @@ export const database = {
             title: "Пачка сигарет",
             author: "Кино",
             source: "13.mp3",
-            duration: 277,
+            duration: "4:37",
             img: "13.jpg",
         },
         {
@@ -117,7 +117,7 @@ export const database = {
             title: "Streets In South",
             author: "SK-47",
             source: "14.mp3",
-            duration: 186,
+            duration: "3:06",
             img: "14.jpg",
         },
         {
@@ -125,7 +125,7 @@ export const database = {
             title: "Too Late",
             author: "Nito NB",
             source: "15.mp3",
-            duration: 207,
+            duration: "3:27",
             img: "15.jpg",
         },
         {
@@ -133,7 +133,7 @@ export const database = {
             title: "Sprinter",
             author: "Dave, Central Cee",
             source: "16.mp3",
-            duration: 229,
+            duration: "3:49",
             img: "16.jpg",
         },
         {
@@ -141,7 +141,7 @@ export const database = {
             title: "Старый отель",
             author: "Браво",
             source: "17.mp3",
-            duration: 230,
+            duration: "3:50",
             img: "17.jpg",
         },
         {
@@ -149,7 +149,7 @@ export const database = {
             title: "Right Now",
             author: "Uncle Murda, Future",
             source: "18.mp3",
-            duration: 224,
+            duration: "3:44",
             img: "18.jpg",
         },
         {
@@ -157,7 +157,7 @@ export const database = {
             title: "Want Me in Cuffs",
             author: "Django, 30, dizz",
             source: "19.mp3",
-            duration: 262,
+            duration: "4:22",
             img: "19.jpg",
         },
         {
@@ -165,7 +165,7 @@ export const database = {
             title: "Son Of A Preacher Man",
             author: "Dusty Springfield",
             source: "20.mp3",
-            duration: 149,
+            duration: "2:29",
             img: "20.jpg",
         },
         {
@@ -173,7 +173,7 @@ export const database = {
             title: "Live Corn #674runbrikky",
             author: "LD, Monkey, Dimzy",
             source: "21.mp3",
-            duration: 200,
+            duration: "3:20",
             img: "21.jpg",
         },
         {
@@ -181,7 +181,7 @@ export const database = {
             title: "Negro drama",
             author: "Racionais Mcs",
             source: "22.mp3",
-            duration: 412,
+            duration: "6:52",
             img: "22.jpg",
         },
         {
@@ -189,7 +189,7 @@ export const database = {
             title: "A vida É Desafio",
             author: "Racionais Mcs",
             source: "23.mp3",
-            duration: 434,
+            duration: "7:14",
             img: "23.jpg",
         },
         {
@@ -197,7 +197,7 @@ export const database = {
             title: "Any Many Miny Moe",
             author: "Young Dolph",
             source: "24.mp3",
-            duration: 197,
+            duration: "3:17",
             img: "24.jpg",
         },
         {
@@ -205,7 +205,7 @@ export const database = {
             title: "Twirlanta",
             author: "22Gz",
             source: "25.mp3",
-            duration: 178,
+            duration: "2:58",
             img: "25.jpg",
         },
         {
@@ -213,7 +213,7 @@ export const database = {
             title: "The Pressure",
             author: "Hardwe're",
             source: "26.mp3",
-            duration: 250,
+            duration: "4:10",
             img: "26.jpg",
         },
         {
@@ -221,7 +221,7 @@ export const database = {
             title: "Can't Leave The Night",
             author: "BADBADNOTGOOD",
             source: "27.mp3",
-            duration: 281,
+            duration: "4:41",
             img: "27.jpg",
         },
         {
@@ -229,7 +229,7 @@ export const database = {
             title: "Knife Talk",
             author: "21 Savage",
             source: "28.mp3",
-            duration: 238,
+            duration: "3:58",
             img: "28.jpg",
         },
         {
@@ -237,7 +237,7 @@ export const database = {
             title: "Want Me Dead",
             author: "Young Thug, 21 Savage",
             source: "29.mp3",
-            duration: 197,
+            duration: "3:17",
             img: "29.jpg",
         },
         {
@@ -245,7 +245,7 @@ export const database = {
             title: "Get Moeny (47 Remix)",
             author: "2Pac",
             source: "30.mp3",
-            duration: 256,
+            duration: "4:16",
             img: "30.jpg",
         },
         {
@@ -253,7 +253,7 @@ export const database = {
             title: "Heartless",
             author: "Kanye West",
             source: "31.mp3",
-            duration: 210,
+            duration: "3:31",
             img: "31.jpg",
         },
         {
@@ -261,7 +261,7 @@ export const database = {
             title: "Black Velvet",
             author: "Alannah Myles",
             source: "32.mp3",
-            duration: 289,
+            duration: "4:49",
             img: "32.jpg",
         },
         {
@@ -269,7 +269,7 @@ export const database = {
             title: "Still Remember",
             author: "Gucci Mane, Pooh Shiesty",
             source: "33.mp3",
-            duration: 242,
+            duration: "4:02",
             img: "33.jpg",
         },
         {
@@ -277,7 +277,7 @@ export const database = {
             title: "MPR",
             author: "Pop Smoke",
             source: "34.mp3",
-            duration: 155,
+            duration: "2:35",
             img: "34.jpg",
         },
         {
@@ -285,7 +285,7 @@ export const database = {
             title: "No Flockin'",
             author: "Kodak Black",
             source: "35.mp3",
-            duration: 165,
+            duration: "2:45",
             img: "35.jpg",
         },
         {
@@ -293,7 +293,7 @@ export const database = {
             title: "Block Episode",
             author: "Masta Ace, Punch&Words",
             source: "36.mp3",
-            duration: 228,
+            duration: "3:48",
             img: "36.jpg",
         },
         {
@@ -301,7 +301,7 @@ export const database = {
             title: "Have You Ever Seen The Rain",
             author: "Creedence Clearwater Revival",
             source: "37.mp3",
-            duration: 160,
+            duration: "2:40",
             img: "37.jpg",
         },
         {
@@ -309,7 +309,7 @@ export const database = {
             title: "A Horse with No Name",
             author: "America, George Martin",
             source: "38.mp3",
-            duration: 249,
+            duration: "4:09",
             img: "38.jpg",
         },
     ],
